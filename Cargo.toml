@@ -3,9 +3,9 @@ name = "hi"
 version = "0.1.0"
 edition = "2024"
 
-# UI-фреймворк пока не выбран. См. DESIGN.md §«Открытые вопросы».
-# Bevy / egui / iced / что-то ещё — решим отдельно. Не web-based, не Tauri.
 [dependencies]
+gpui-kit = "0.6"
+anyhow = "1.0"
 
 [profile.dev]
 debug = false
